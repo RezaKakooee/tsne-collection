@@ -11,4 +11,13 @@ numeric-tsne-plotly/logs
 numeric-tsne-plotly/__pycache__
 numeric-tsne-plotly/.ipynb_checkpoints
 
+
+numeric-tsne-tb/__pycache__
+numeric-tsne-tb/.ipynb_checkpoints
+numeric-tsne-tb/dataset
+numeric-tsne-tb/logs
+numeric-tsne-tb/project-tensorboard
+
+
+
 *.rar
