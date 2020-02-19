@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\reza\\gdrive-redu\\hslu\\tsne-collection\\numeric-tsne-tb\\logs\\model.ckpt-1"
+all_model_checkpoint_paths: "C:\\Users\\reza\\gdrive-redu\\hslu\\tsne-collection\\numeric-tsne-tb\\logs\\model.ckpt-1"

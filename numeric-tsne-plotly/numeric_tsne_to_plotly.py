@@ -26,7 +26,7 @@ if __name__ == '__main__':
     # load the whole image set
     num_samples, num_features, features, labels = load_data()
 
-    # similatiris
+    # similarities
     similarity_mat = get_similarity(features, features)
     
     

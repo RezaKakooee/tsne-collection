@@ -10,3 +10,5 @@ numeric-tsne-plotly/dataset
 numeric-tsne-plotly/logs
 numeric-tsne-plotly/__pycache__
 numeric-tsne-plotly/.ipynb_checkpoints
+
+*.rar

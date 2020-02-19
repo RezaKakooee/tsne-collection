@@ -15,7 +15,7 @@ def load_data():
     with open(data_path, "rb") as vectors_file:
         pca_vectors = pickle.load(vectors_file)
     
-    features = pca_vectors #[:1000]
+    features = pca_vectors[:1000]
     
     num_samples, num_features = np.shape(features)
     
