@@ -1,0 +1,12 @@
+__pycache__/
+
+image-tsne-tb/imageset
+image-tsne-tb/logs
+image-tsne-tb/__pycache__
+image-tsne-tb/.ipynb_checkpoints
+
+
+numeric-tsne-plotly/dataset
+numeric-tsne-plotly/logs
+numeric-tsne-plotly/__pycache__
+numeric-tsne-plotly/.ipynb_checkpoints

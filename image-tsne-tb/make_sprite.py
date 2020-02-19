@@ -4,7 +4,7 @@ Created on Wed Feb 19 00:24:45 2020
 
 @author: rkako
 """
-import numpy as no
+import numpy as np
 
 
 def images_to_sprite(images):
