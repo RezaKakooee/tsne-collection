@@ -12,7 +12,7 @@ class Params():
     def __init__(self):
         # Directories ans Pathes
         self.current_dir = os.getcwd()
-        self.dataset_dir = 'C:/Users/reza/gdrive-redu/hslu/HSLU-Secude/large-data'
+        self.dataset_dir = 'C:/Users/rkako/gdrive-edu/hslu/HSLU-Secude/large-data'
         self.data_file_name = 'pca_output_vectors.pickle'
         self.data_path = os.path.join(self.dataset_dir, self.data_file_name)
         
@@ -27,7 +27,7 @@ class Params():
         self.similarity_metric = 'cosine'
         
         # clucters
-        self.num_clusters = 10
+        self.num_classes = 10
         
         # embeder
         self.embeding_images_with = 'tsne'# 'sim'# 'feat'# 'img'# 

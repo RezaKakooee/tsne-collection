@@ -74,7 +74,7 @@ if __name__ == '__main__':
     if  embeding_images_with == 'feat':
         embd_mat = features
     elif embeding_images_with == 'deepfeat':
-        embd_mat = deep_features
+        embd_mat = features #deep_features
     elif embeding_images_with == 'sim':
         embd_mat = similarity_mat 
     elif embeding_images_with == 'tsne':

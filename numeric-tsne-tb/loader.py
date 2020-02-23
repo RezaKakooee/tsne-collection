@@ -19,7 +19,7 @@ def load_data():
     
     num_samples, num_features = np.shape(features)
     
-    labels = np.random.randint(0, params.num_clusters, num_samples)
+    labels = np.random.randint(0, params.num_classes, num_samples)
         
     return num_samples, num_features, features, labels
 
