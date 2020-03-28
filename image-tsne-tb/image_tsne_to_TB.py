@@ -54,7 +54,7 @@ if __name__ == '__main__':
     # directory and file names
     imageset_dir = params.imageset_dir
     log_dir = params.log_dir #'minimalsample'
-    sprit_image_path = params.sprit_image_path#"sprit.png"
+    sprite_image_path = params.sprite_image_path#"sprit.png"
     metadata_path = params.metadata_path#"metadata.tsv"
     
     # load the whole image set
@@ -76,7 +76,7 @@ if __name__ == '__main__':
     
     sprite_image = images_to_sprite(images_arr)
     ### save sprit images
-    plt.imsave(params.sprit_image_path , sprite_image, cmap='gray')
+    plt.imsave(params.sprite_image_path , sprite_image, cmap='gray')
     
     # embeding
     embeding_images_with = params.embeding_images_with

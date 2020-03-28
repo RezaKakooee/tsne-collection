@@ -13,13 +13,14 @@ class Params():
         # Directories ans Pathes
         self.current_dir = os.getcwd()
 #        self.dataset_folder_name = 'imageset'
-        self.dataset_dir = 'C:/Users/rkako/gdrive-edu/hslu/HSLU-Secude/large-data'
+        self.dataset_dir = 'C:/Users/reza/gdrive-redu/hslu/HSLU-Secude/large-data'
         self.data_file_name = 'pca_output_vectors.pickle'
         self.data_path = os.path.join(self.dataset_dir, self.data_file_name)
         
         self.log_dir_name = 'logs'
         self.log_dir = os.path.join(self.current_dir, self.log_dir_name)
 
+        
         self.similarity_metric = 'cosine'
         
         # clucters

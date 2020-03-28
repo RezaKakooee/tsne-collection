@@ -17,8 +17,8 @@ class Params():
                 
         self.log_dir_name = 'logs'
         self.log_dir = os.path.join(self.current_dir, self.log_dir_name)
-        self.sprit_image_name = "sprit.png"  
-        self.sprit_image_path =  os.path.join(self.log_dir, self.sprit_image_name)
+        self.sprite_image_name = "sprite.png"  
+        self.sprite_image_path =  os.path.join(self.log_dir, self.sprite_image_name)
         self.metadata_name = "metadata.tsv"
         self.metadata_path =  os.path.join(self.log_dir, self.metadata_name)
 

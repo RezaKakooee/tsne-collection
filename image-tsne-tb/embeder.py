@@ -13,8 +13,8 @@ params = Params()
 log_dir = params.log_dir
 sprite_image_path = params.sprite_image_path
 metadata_path = params.metadata_path
-image_height = params.image_height
-image_width = params.image_width
+image_height = params.img_targ_H
+image_width = params.img_targ_W
 
 def image_embeding_creator(images):
     embedding_var = tf.Variable(images, name="image_embedding")
